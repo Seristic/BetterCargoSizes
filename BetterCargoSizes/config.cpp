@@ -159,6 +159,6 @@ class CfgVehicles
     		itemsCargoSize[]={9,2}; //Default Value(s) = {6,4}
     		weight=440; //Default Value = 390
     		ragQuantity=4; //Default Value = 3
-    		heatIsolation=0.5;
+    		heatIsolation=0.5175; //This is a 0.5175% decrease from it's default value "0.5"
         };
 };
