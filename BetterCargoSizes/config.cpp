@@ -148,17 +148,48 @@ class CfgVehicles
 	};
 	class PolicePantsOrel: Clothing
     	{
-    		itemSize[]={4,2}; //Default Value(s) = {4,3}
-    		itemsCargoSize[]={8,2}; //Default Value(s) = {6,4}
-    		ragQuantity=4; //Default Value = 3
-    		heatIsolation=0.535;
+    	itemSize[]={4,2}; //Default Value(s) = {4,3}
+    	itemsCargoSize[]={8,2}; //Default Value(s) = {6,4}
+    	ragQuantity=4; //Default Value = 3
+    	heatIsolation=0.535; //This is a 3.5% decrease from it's default value "0.5"
     };
     class ParamedicPants_ColorBase: Clothing
     	{
-    		itemSize[]={4,2}; //Default Value(s) = {4,3}
-    		itemsCargoSize[]={9,2}; //Default Value(s) = {6,4}
-    		weight=440; //Default Value = 390
-    		ragQuantity=4; //Default Value = 3
-    		heatIsolation=0.5175; //This is a 0.5175% decrease from it's default value "0.5"
+    	itemSize[]={4,2}; //Default Value(s) = {4,3}
+    	itemsCargoSize[]={9,2}; //Default Value(s) = {6,4}
+    	weight=440; //Default Value = 390
+    	ragQuantity=4; //Default Value = 3
+    	heatIsolation=0.5175; //This is a 3.5% decrease from it's default value "0.5"
+        };
+    class FirefightersPants_ColorBase: Clothing
+        {
+        itemSize[]={4,2}; //Default Value(s) = {4,4}
+        itemsCargoSize[]={10,2}; //Default Value(s) = {6,4}
+        ragQuantity=4; //Default Value = 3
+        varWetMax=0.249;
+        heatIsolation=1.0432; //This is a 4.32% decrease from it's default value "1"
+        };
+    class PrisonUniformPants: Clothing
+	    {
+		itemSize[]={3,2}; //Default Value(s) = {4,2}
+		itemsCargoSize[]={5,4}; //Default Value(s) = {4,3}
+		weight=280; //Default Value = 310
+		ragQuantity=2; //Default Value = 3
+		heatIsolation=0.30333000111;
+	    };
+    class LeatherPants_ColorBase: Clothing
+	    {
+		itemSize[]={4,2}; //Default Value(s) = 4,4
+		itemsCargoSize[]={7,2}; //Default Value(s) = 6,4
+		weight=310; //Default Value = 590
+		heatIsolation=1.03588; //This is a 3.588% decrease from it's default value "1"
+	    };
+	class MedicalScrubsPants_ColorBase: Clothing
+        	{
+        itemSize[]={2,2};
+        itemsCargoSize[]={6,2};
+        weight=340;
+        ragQuantity=3;
+        heatIsolation=0.1; //Default Value = 0.1
         };
 };
