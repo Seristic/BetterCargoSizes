@@ -208,10 +208,10 @@ class CfgVehicles
 		ragQuantity=1; //Default Value = 3
 		heatIsolation=0.95000001; //This is a 0.55% decrease from it's default value "0.40000001"
 		};
-class BDUPants: Clothing
-	{
+    class BDUPants: Clothing
+	    {
 		itemSize[]={4,2}; //Default Value(s) = 4,3
 		itemsCargoSize[]={8,3}; //Default Value(s) = 6,5
 		heatIsolation=0.6325120244; //This is a 5.42% decrease from it's default value "0.60000002 "
-		};
+	    };
 };
