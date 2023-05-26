@@ -1,0 +1,33 @@
+### Issue Template
+
+**Title**:
+[Add a descriptive title for the issue]
+
+**Description**:
+[Provide a detailed description of the issue]
+
+**Steps to Reproduce**:
+[Outline the steps to reproduce the issue]
+
+**Expected Behavior**:
+[Describe what you expected to happen]
+
+**Actual Behavior**:
+[Describe what actually happened]
+
+**Environment**:
+[Include relevant information about the environment, such as operating system, browser, or version numbers]
+
+**Screenshots**:
+[Attach any relevant screenshots or images]
+
+---
+
+<!-- Instructions for label selection -->
+**Label Selection**:
+Please apply the appropriate label(s) from the list below after submitting this issue:
+- [ ] Bug
+- [ ] Enhancement
+- [ ] Documentation
+- [ ] Feature Request
+- [ ] Other
