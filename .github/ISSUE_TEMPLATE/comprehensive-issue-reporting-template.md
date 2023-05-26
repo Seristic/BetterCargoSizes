@@ -33,12 +33,3 @@ assignees: ''
 [Attach any relevant screenshots or images]
 
 ---
-
-<!-- Instructions for label selection -->
-**Label Selection**:
-Please apply the appropriate label(s) from the list below after submitting this issue:
-- [ ] Bug
-- [ ] Enhancement
-- [ ] Documentation
-- [ ] Feature Request
-- [ ] Other
