@@ -216,7 +216,6 @@ class CfgVehicles
 	    };
     class NBCPantsBase: Clothing
 	    {
-
 		itemSize[]={3,2}; //Default Value(s) = 3,2
 		itemsCargoSize[]={5,2}; //Default Value(s) = 5,4
 		weight=300; //Default Value = 520
