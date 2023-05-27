@@ -226,7 +226,7 @@ class CfgVehicles
     	{
     	itemSize[]={3,2};
     	ItemsCargoSize[]={6,2};
-    	weight=410;
-    	heatIsolation=0.305280008176; //This is a 0% decrease/increase from it's default value "0.30000001"
+    	weight=400;
+    	heatIsolation=0.305280008176; //This is a 1.76% increase from it's default value "0.30000001"
     	};
 };
