@@ -26,8 +26,8 @@ ensuring that the gameplay experience is balanced, realistic, and immersive. By 
     - [ ] Check and adjust itemSize for masks
     - [ ] Fine-tune weight and other attributes for different mask types
 - [ ] Pants
-    - [ ] Review and update itemSize for pants
-    - [ ] Adjust itemsCargoSize for pants
+    - [x] Review and update itemSize for pants
+    - [x] Adjust itemsCargoSize for pants
     - [ ] Fine-tune weight, heat isolation, and other attributes for different pants styles
 - [ ] Shoes
     - [ ] Evaluate and modify itemSize for shoes
