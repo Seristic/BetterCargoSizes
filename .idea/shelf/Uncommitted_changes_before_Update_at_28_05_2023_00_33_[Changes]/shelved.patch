@@ -1,0 +1,122 @@
+Index: BetterCargoSizes/config.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>class CfgPatches\r\n{\r\n\tclass BetterCargoSizes\r\n\t{\r\n\t\tunits[]={};\r\n\t\tweapons[]={};\r\n\t\trequiredVersion=0.1;\r\n\t\trequiredAddons[]=\r\n\t\t{\r\n\t\t\t\"DZ_Characters_Pants\"  \r\n\t\t};\r\n\t};\r\n};\r\nclass CfgMods\r\n{\r\n\tclass BetterCargoSizes\r\n\t{\r\n\t\tdir=\"BetterCargoSizes\";\r\n\t\tpicture=\"\"; \r\n\t\taction=\"\";\r\n\t\thideName=1;\r\n\t\thidePicture=1;\r\n\t\tname=\"BetterCargoSizes\";\r\n\t\tcredits=\"Seristic - Bringing BCS to life | Spurgle - Helping out a fuck ton with his Tutorials!.\"; \r\n\t\tauthor=\"Seristic\";\r\n\t\tauthorID=\"0\";  \r\n\t\tversion=\"1.0\";\r\n\t\textra=0;\r\n\t\ttype=\"mod\";\r\n\t\tdependencies[]=\r\n\t\t{\r\n\t\t\t\"Game\",\r\n\t\t\t\"World\",\r\n\t\t\t\"Mission\"\r\n\t\t};\r\n\t\t/*class defs\r\n\t\t{\r\n\t\t\tclass gameScriptModule\r\n\t\t\t{\r\n\t\t\t\tvalue=\"\";\r\n\t\t\t\tfiles[]=\r\n\t\t\t\t{\r\n\t\t\t\t\t\"BetterCargoSizes/scripts/3_game\"\r\n\t\t\t\t};\r\n\t\t\t};\r\n\t\t\tclass worldScriptModule\r\n\t\t\t{\r\n\t\t\t\tvalue=\"\";\r\n\t\t\t\tfiles[]=\r\n\t\t\t\t{\r\n\t\t\t\t\t\"BetterCargoSizes/scripts/4_world\"\r\n\t\t\t\t};\r\n\t\t\t};\r\n\t\t\tclass missionScriptModule\r\n\t\t\t{\r\n\t\t\t\tvalue=\"\";\r\n\t\t\t\tfiles[]=\r\n\t\t\t\t{\r\n\t\t\t\t\t\"BetterCargoSizes/scripts/5_mission\"\r\n\t\t\t\t};\r\n\t\t\t};\r\n\t\t};*/\r\n\t};\r\n};\r\nclass CfgVehicles\r\n{\r\n        class Clothing;\r\n    \tclass ShortJeans_ColorBase: Clothing\r\n\t{\r\n\t\tscope=0;=\r\n\t\titemSize[]={2,1}; //Default Value(s) = {3,1}\r\n\t\theatIsolation=0.102; //This is a 2% increase from it's default value \"0.1\"\r\n\t\titemsCargoSize[]={4,2}; //Default Value(s) = {5,4}\r\n\t};\r\n\tclass Clothing_Base;\r\n\t// class Clothing: Clothing_Base\r\n\r\n\tclass Jeans_ColorBase: Clothing\r\n\t//Jeans\r\n\t{\r\n\t\titemSize[]={3,2};\r\n\t\titemsCargoSize[]={7,2};\r\n\t\theatIsolation=0.6090576; //This is roughly a 1.576% increase from it's default value \"0.60000002\"\r\n\t};\r\n\tclass CargoPants_ColorBase: Clothing\r\n\t//Cargo Pants\r\n\t{\r\n\t\titemSize[]={4,2}; //Default Value(s) = {4,3}\r\n\t\titemsCargoSize[]={10,2}; //Default Value(s) = {6,4}\r\n\t\tweight=574; //Default Value = 530\r\n\t\tragQuantity=4; //Default Value = 3\r\n\t\theatIsolation=0.8320000336; //This is a 4% increase from it's default value \"0.80000001\"\r\n\t};\r\n\tclass TTSKOPants: Clothing\r\n\t//Combat gear is being replaced by alternative mod.\r\n\t{\r\n\t\tscope=2;\r\n\t\titemSize[]={7,7};\r\n\t\titemsCargoSize[]={0,0};\r\n\t\tweight=2500;\r\n\t\tragQuantity=3;\r\n\t\tvarWetMax=0.79000002;\r\n\t\theatIsolation=0.0;\r\n\t};\r\n\tclass HunterPants_ColorBase: Clothing\r\n\t//Hunter Pants\r\n\t{\r\n\t\titemSize[]={4,2}; //Default Value(s) = {4,3}\r\n\t\titemsCargoSize[]={9,2}; //Default Value(s) = {6,4}\r\n\t\tweight=730; //Default Value = 630\r\n\t\tragQuantity=4; //Default Value = 3\r\n\t\theatIsolation=0.97445; //This is a 2.555% decrease from it's default value \"1\"\r\n\t}; \r\n\tclass CanvasPants_ColorBase: Clothing\r\n\t//Canvas/Hiking Pants\r\n\t{\r\n\t\titemSize[]={3,2}; //Default Value(s) = {3,2}\r\n\t\titemsCargoSize[]={4,2}; //Default Value(s) = {4,2}\r\n\t\tweight=330; //Default Value = 370\r\n\t\tragQuantity=1; //Default Value = 3\r\n\t\theatIsolation=0.283412004; //This is a 2.555% decrease from it's default value \"0.30000001\"\r\n\t};\r\n\tclass CanvasPantsMidi_ColorBase: Clothing\r\n\t//Cropped Canvas/Hiking Pants\r\n\t{\r\n\t\titemSize[]={3,2}; //Default Value(s) = {3,2}\r\n\t\titemsCargoSize[]={4,2}; //Default Value(s) = {5,4}\r\n\t\tweight=330; //Default Value = 370\r\n\t\tragQuantity=1; //Default Value = 3\r\n\t\theatIsolation=0.19181; //This is a 4.555% decrease from it's default value \"0.2\"\r\n\t\trepairCosts[]={15,30}; //Default Value(s) = {30,25}\r\n\t};\r\n\tclass TrackSuitPants_ColorBase: Clothing\r\n\t{\r\n\t\titemSize[]={2,2}; //Default Value(s) = {3,2}\r\n\t\titemsCargoSize[]={4,2}; //Default Value(s) = {5,4}\r\n\t\tweight=400; //Default Value = 490\r\n\t\tragQuantity=1; //Default Value = 3\r\n\t\theatIsolation=0.5; //This is a 0.4575% decrease from it's default value \"0.5\"\r\n\t};\r\n\tclass GorkaPants_ColorBase: Clothing\r\n\t{\r\n\t\titemSize[]={4,2}; //Default Value(s) = {4,3}\r\n\t\titemsCargoSize[]={10,2}; //Default Value(s) = {6,5}\r\n\t\tweight=590; //Default Value = 400\r\n\t\tvarWetMax=0.249;\r\n\t\theatIsolation=0.4186; //This is a 0.4575% decrease from it's default value \"0.40000001\"\r\n\t};\r\n\tclass PolicePantsOrel: Clothing\r\n    \t{\r\n    \titemSize[]={4,2}; //Default Value(s) = {4,3}\r\n    \titemsCargoSize[]={8,2}; //Default Value(s) = {6,4}\r\n    \tragQuantity=4; //Default Value = 3\r\n    \theatIsolation=0.535; //This is a 3.5% decrease from it's default value \"0.5\"\r\n    };\r\n    class ParamedicPants_ColorBase: Clothing\r\n    \t{\r\n    \titemSize[]={4,2}; //Default Value(s) = {4,3}\r\n    \titemsCargoSize[]={9,2}; //Default Value(s) = {6,4}\r\n    \tweight=440; //Default Value = 390\r\n    \tragQuantity=4; //Default Value = 3\r\n    \theatIsolation=0.5175; //This is a 3.5% decrease from it's default value \"0.5\"\r\n        };\r\n    class FirefightersPants_ColorBase: Clothing\r\n        {\r\n        itemSize[]={4,2}; //Default Value(s) = {4,4}\r\n        itemsCargoSize[]={10,2}; //Default Value(s) = {6,4}\r\n        ragQuantity=4; //Default Value = 3\r\n        varWetMax=0.249;\r\n        heatIsolation=1.0432; //This is a 4.32% decrease from it's default value \"1\"\r\n        };\r\n    class PrisonUniformPants: Clothing\r\n\t    {\r\n\t\titemSize[]={3,2}; //Default Value(s) = {4,2}\r\n\t\titemsCargoSize[]={5,4}; //Default Value(s) = {4,3}\r\n\t\tweight=280; //Default Value = 310\r\n\t\tragQuantity=2; //Default Value = 3\r\n\t\theatIsolation=0.30333000111;\r\n\t    };\r\n    class LeatherPants_ColorBase: Clothing\r\n\t    {\r\n\t\titemSize[]={4,2}; //Default Value(s) = 4,4\r\n\t\titemsCargoSize[]={7,2}; //Default Value(s) = 6,4\r\n\t\tweight=310; //Default Value = 590\r\n\t\theatIsolation=1.03588; //This is a 3.588% decrease from it's default value \"1\"\r\n\t    };\r\n\tclass MedicalScrubsPants_ColorBase: Clothing\r\n        \t{\r\n        itemSize[]={2,2};\r\n        itemsCargoSize[]={6,2};\r\n        weight=340;\r\n        ragQuantity=3;\r\n        heatIsolation=0.1; //Default Value = 0.1\r\n        };\r\n    class USMCPants_ColorBase: Clothing\r\n\t    {\r\n\t\titemSize[]={4,2}; //Default Value(s) = 4,3\r\n\t\titemsCargoSize[]={10,2}; //Default Value(s) = 6,5\r\n\t\tweight=945; //Default Value(s) = 872\r\n\t\tragQuantity=2; //Default Value(s) = 2\r\n\t\theatIsolation=0.608580000286; //This is a 1.43% decrease from it's default value \"0.60000002\"\r\n\t    };\r\n    class SlacksPants_ColorBase: Clothing\r\n\t    {\r\n\t\titemSize[]={3,2}; //Default Value(s) = 3,2\r\n\t\titemsCargoSize[]={4,2}; //Default Value(s) = 5,4\r\n\t\tweight=160; //Default Value = 184\r\n\t\tragQuantity=1; //Default Value = 3\r\n\t\theatIsolation=0.95000001; //This is a 0.55% decrease from it's default value \"0.40000001\"\r\n\t\t};\r\n    class BDUPants: Clothing\r\n\t    {\r\n\t\titemSize[]={4,2};\r\n\t\titemsCargoSize[]={8,3}; //Default Value(s) = 6,5\r\n\t\theatIsolation=0.6325120244; //This is a 5.42% decrease from it's default value \"0.60000002 \"\r\n\t    };\r\n    class NBCPantsBase: Clothing\r\n\t    {\r\n\r\n\t\titemSize[]={3,2}; //Default Value(s) = 3,2\r\n\t\titemsCargoSize[]={5,2}; //Default Value(s) = 5,4\r\n\t\tweight=300; //Default Value = 520\r\n\t\theatIsolation=0.40000001; //This is a 0% decrease/increase from it's default value \"0.40000001\"\r\n        };\r\n    class Breeches_ColorBase: Clothing\r\n    \t{\r\n    \titemSize[]={3,2};\r\n    \tItemsCargoSize[]={6,2};\r\n    \tweight=400;\r\n    \theatIsolation=0.305280008176; //This is a 1.76% increase from it's default value \"0.30000001\"\r\n    \t};\r\n};
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/BetterCargoSizes/config.cpp b/BetterCargoSizes/config.cpp
+--- a/BetterCargoSizes/config.cpp	(revision 44fdc45e2bd5182fc231db867d598ac5fde49d79)
++++ b/BetterCargoSizes/config.cpp	(date 1685230374850)
+@@ -216,7 +216,6 @@
+ 	    };
+     class NBCPantsBase: Clothing
+ 	    {
+-
+ 		itemSize[]={3,2}; //Default Value(s) = 3,2
+ 		itemsCargoSize[]={5,2}; //Default Value(s) = 5,4
+ 		weight=300; //Default Value = 520
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1685230374847)
++++ b/.idea/.gitignore	(date 1685230374847)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1685230374848)
++++ b/.idea/misc.xml	(date 1685230374848)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/BetterCargoSizes GIT.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/BetterCargoSizes GIT.iml b/.idea/BetterCargoSizes GIT.iml
+new file mode 100644
+--- /dev/null	(date 1685230374847)
++++ b/.idea/BetterCargoSizes GIT.iml	(date 1685230374847)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1685230374849)
++++ b/.idea/vcs.xml	(date 1685230374849)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/discord.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/discord.xml b/.idea/discord.xml
+new file mode 100644
+--- /dev/null	(date 1685230374848)
++++ b/.idea/discord.xml	(date 1685230374848)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DiscordProjectSettings">
++    <option name="show" value="PROJECT_FILES" />
++    <option name="description" value="" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1685230374849)
++++ b/.idea/modules.xml	(date 1685230374849)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/BetterCargoSizes GIT.iml" filepath="$PROJECT_DIR$/.idea/BetterCargoSizes GIT.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
