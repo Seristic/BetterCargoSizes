@@ -4,7 +4,7 @@ Enhance your inventory management in DayZ with BetterCargoSizes. This mod introd
 
 ## Todo List
 
-Please refer to the [Todo List](todo.md) for the list of tasks related to BetterCargoSizes.
+Please refer to the [Todo List](Todo.md) for the list of tasks related to BetterCargoSizes.
 
 ## Description
 
