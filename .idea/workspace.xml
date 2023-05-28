@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3663974b-02ac-4e78-a193-73a16e3077e5" name="Changes" comment="Added a fix for Breeches crashing server.">
+      <change beforePath="$PROJECT_DIR$/BetterCargoSizes/config.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BetterCargoSizes/config.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/Development" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QHwc0DiSfxlwYTRlmMYlhsw4nn" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "P:/BetterCargoSizes GIT",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3663974b-02ac-4e78-a193-73a16e3077e5" name="Changes" comment="" />
+      <created>1685023889906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685023889906</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Improvements to code layout.">
+      <created>1685027164266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685027164266</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Improvements to code layout.&#10;&#10;Added a few new clothing (Pants)">
+      <created>1685034298519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685034298519</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Improvements to code layout.&#10;&#10;Added a few new clothing (Pants)&#10;&#10;Adjusted LICENSE File">
+      <created>1685109566741</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685109566741</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Improvements to code layout.&#10;&#10;Added a few new clothing (Pants)&#10;&#10;Adjusted LICENSE File">
+      <created>1685110262353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685110262353</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Improvements to code layout.&#10;&#10;Added a few new clothing (Pants)&#10;&#10;Adjusted LICENSE File">
+      <created>1685229894264</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685229894264</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Improvements to code layout.&#10;&#10;Added a few new clothing (Pants)&#10;&#10;Adjusted LICENSE File">
+      <created>1685230074315</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685230074315</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added a fix for Breeches crashing server.">
+      <created>1685230208781</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685230208781</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Development" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Improvements to code layout." />
+    <MESSAGE value="Improvements to code layout.&#10;&#10;Added a few new clothing (Pants)" />
+    <MESSAGE value="Improvements to code layout.&#10;&#10;Added a few new clothing (Pants)&#10;&#10;Adjusted LICENSE File" />
+    <MESSAGE value="Added a fix for Breeches crashing server." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a fix for Breeches crashing server." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
