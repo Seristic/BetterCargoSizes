@@ -65,11 +65,9 @@ class CfgVehicles
 	class Clothing;
 	class ShortJeans_ColorBase : Clothing
 	{
-		scope = 0;
-		=
-			itemSize[] = {2, 1};   // Default Value(s) = {3,1}
-		heatIsolation = 0.102;	   // This is a 2% increase from it's default value "0.1"
+		itemSize[] = {2, 1};	   // Default Value(s) = {3,1}
 		itemsCargoSize[] = {4, 2}; // Default Value(s) = {5,4}
+		heatIsolation = 0.102;	   // This is a 2% increase from it's default value "0.1"
 	};
 	class Clothing_Base;
 	// class Clothing: Clothing_Base
@@ -226,5 +224,14 @@ class CfgVehicles
 		ItemsCargoSize[] = {6, 2};
 		weight = 400;
 		heatIsolation = 0.305280008176; // This is a 1.76% increase from it's default value "0.30000001"
+	};
+	class Skirt_ColorBase : Clothing
+	{
+		itemSize[] = {2, 1};	   // Default Value = 520
+		itemsCargoSize[] = {3, 2}; // Default Value = 520
+		weight = 500;			   // Default Value = 470
+		ragQuantity = 1;		   // Default Value = 2
+		varWetMax = 0.8;		   // Default Value = 1
+		heatIsolation = 0.00165;   // This is a 1.76% increase from it's default value "0.1"
 	};
 };
