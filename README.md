@@ -2,6 +2,10 @@
 
 Enhance your inventory management in DayZ with BetterCargoSizes. This mod introduces realistic item resizing, allowing you to carry a broader range of supplies, equipment, and resources without compromising the challenge or immersion of the game. Enjoy a more adaptable inventory system that optimizes storage space while maintaining the intense survival experience of DayZ.
 
+## Todo List
+
+Please refer to the [Todo List](todo.md) for the list of tasks related to BetterCargoSizes.
+
 ## Description
 
 Discover a more realistic and immersive inventory management experience with BetterCargoSizes, a mod that meticulously adjusts the sizes of items in DayZ. This mod focuses on resizing the space that items occupy in your inventory, providing a more accurate representation of their physical dimensions.
