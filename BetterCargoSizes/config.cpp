@@ -210,8 +210,22 @@ class CfgVehicles
 		};
     class BDUPants: Clothing
 	    {
-		itemSize[]={4,2}; //Default Value(s) = 4,3
+		itemSize[]={4,2};
 		itemsCargoSize[]={8,3}; //Default Value(s) = 6,5
 		heatIsolation=0.6325120244; //This is a 5.42% decrease from it's default value "0.60000002 "
 	    };
+    class NBCPantsBase: Clothing
+	    {
+		itemSize[]={3,2}; //Default Value(s) = 3,2
+		itemsCargoSize[]={5,2}; //Default Value(s) = 5,4
+		weight=300; //Default Value = 520
+		heatIsolation=0.40000001; //This is a 0% decrease/increase from it's default value "0.40000001"
+        };
+    class Breeches_ColorBase: Clothing
+    	{
+    	itemSize[]={3,2};
+    	ItemsCargoSize[]={6,2};
+    	weight=400;
+    	heatIsolation=0.305280008176; //This is a 1.76% increase from it's default value "0.30000001"
+    	};
 };
